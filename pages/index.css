@@ -8,14 +8,13 @@
 }
 
 .header {
-  background-color: #FFFFFF;
-}
-
-.background_header {
+  /* background-image: url(/images/background_header.svg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-
+  background-repeat: no-repeat; */
+  background-color: #FFFFFF;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .nav {
@@ -25,6 +24,8 @@
 
 .logo {
   position: relative;
+  width: 125px;
+  height: 142px;
   top: 30px;
   left: 30px;
 }
@@ -37,6 +38,50 @@
   margin: 30px 80px 0 0;
 }
 
+.header__title {
+  max-width: 729px;
+  position: relative;
+  top: 80px;
+  left: 80px;
+  margin: 0;
+}
+
 .header__title span{
   display: block;
+}
+
+.header__description {
+  max-width: 683px;
+  position: relative;
+  top: 100px;
+  left: 80px;
+  margin: 0;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  position: fixed;
+  bottom: 40px;
+  left: 80px;
+  right: 80px;
+}
+
+.header__hours {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__address {
+  margin: 0;
 }
