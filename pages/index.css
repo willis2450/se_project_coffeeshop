@@ -12,6 +12,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; */
+  position: relative;
   background-color: #FFFFFF;
   min-height: 720px;
   max-height: 800px;
@@ -19,11 +20,11 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .logo {
-  position: relative;
+  position: absolute;
   width: 125px;
   height: 142px;
   top: 30px;
@@ -45,13 +46,12 @@
 
 .header__title {
   max-width: 729px;
-  position: relative;
-  top: 80px;
-  left: 80px;
   margin: 0;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
+  padding-top: 202px;
+  padding-left: 80px;
 }
 
 .header__title span{
@@ -65,13 +65,12 @@
 
 .header__description {
   max-width: 683px;
-  position: relative;
-  top: 100px;
-  left: 80px;
   margin: 0;
   font-family: "Noto Serif", Times New Roman, sans-serif;
   font-size: 20px;
   line-height: 30px;
+  padding-top: 28px;
+  padding-left: 80px;
 }
 
 .header__image {
@@ -83,15 +82,17 @@
 }
 
 .header__footer {
+  position: absolute;
   display: flex;
   justify-content: space-between;
+  align-items: end;
   margin: 0;
-  /* position: fixed; */
   bottom: 40px;
   left: 80px;
   right: 80px;
   font-weight: 500;
   color: #838383;
+
 }
 
 .header__hours {
@@ -109,18 +110,17 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px 80px 0;
 }
 
 .recipes__title {
   max-width: 580px;
-  position: relative;
   top: 100px;
   left: 80px;
 }
 
 .recipes__subtitle {
   max-width: 438px;
-  position: relative;
   top: 24px;
   left: 80px;
 }
