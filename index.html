@@ -1,88 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Practicum's very own coffee shop! Come order some fresh brewed coffee and practice your code.">
-  <meta name="author" content="William Wade">
-  <meta name="keywords" content="coffe, coffeeshop, Practicum">
-  <title>Coffee Shop</title>
-  <link rel="stylesheet" href="pages/index.css">
-  <link rel="stylesheet" href="vendor/normalize.css">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-</head>
-<body>
-<div class="page">
- <header class="header" style="background-image: url('images/background_header.svg')">
-  <nav class="nav">
-    <img src="./images/logo_coffee_shop.svg"
-    alt="Coffee Shop Logo"
-    class="logo"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Practicum's very own coffee shop! Come order some fresh brewed coffee and practice your code."
     />
-    <ul class="nav__links">
-      <li>
-         <a class="nav__link" href="#menu">Menu</a>
-      </li>
-      <li>
-        <a class="nav__link" href="#recipes">Recipes</a>
-      </li>
-      <li>
-        <a class="nav__link" href="#book-a-table">Book a table</a>
-      </li>
-      <li>
-        <a class="nav__link" href="#contacts">Contacts</a>
-      </li>
-    </ul>
-  </nav>
-  <h1 class="header__title"><Span>Specialty coffee</Span>in the Practicum Library</h1>
-  <h2 class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</h2>
-  <img src="./images/inside_coffee_shop.png"
-  alt="The Practicum Coffee Shop"
-  class="header__image"
-  />
-  <div class="header__footer">
-    <ul class="header__hours">
-      <li>
-        Hours:
-      </li>
-      <li>
-        Monday-Friday (10:00 - 19:00)
-      </li>
-      <li>
-        Saturday - Sunday (11:00 - 18:00)
-      </li>
-    </ul>
-    <P class="header__address">200 Success Avenue, The Town of Practicum</P>
-  </div>
-</header>
- <main class="content">
-  <section class="recipes" style="background-image: url('images/background_recipes.svg');">
-    <h2 class="recipes__title">Recipes</h2>
-    <h3 class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</h3>
-    <div class="recipes__videos">
-      <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p class="recipes__video-caption">Aeropress recipe ~5min</p>
-      <p class="recipes__video-caption">French press recipe ~15min</p>
+    <meta name="author" content="William Wade" />
+    <meta name="keywords" content="coffe, coffeeshop, Practicum" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header
+        class="header"
+        style="background-image: url('images/background_header.svg')"
+      >
+        <nav class="nav">
+          <img
+            src="./images/logo_coffee_shop.svg"
+            alt="Coffee Shop Logo"
+            class="logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#recipes">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#book-a-table">Book a table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span>Specialty coffee</span>in the Practicum Library
+        </h1>
+        <h2 class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </h2>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="The Practicum Coffee Shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <ul class="header__hours">
+            <li>Hours:</li>
+            <li>Monday-Friday (10:00 - 19:00)</li>
+            <li>Saturday - Sunday (11:00 - 18:00)</li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section
+          class="recipes"
+          style="background-image: url('images/background_recipes.svg')"
+        >
+          <h2 class="recipes__title" id="recipes">Recipes</h2>
+          <h3 class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </h3>
+          <div class="recipes__videos">
+            <div class="recipe__video-item">
+              <iframe
+                class="recipes__iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption"><span>Aeropress recipe</span> <span> ~5min</span></p>
+            </div>
+            <div class="recipe__video-item">
+              <iframe
+                class="recipes__iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+
+              <p class="recipes__video-caption"><span>French press recipe</span><span> ~15min</span></p>
+            </div>
+          </div>
+        </section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-  </section>
-  <section class="reservation">
-
-  </section>
-  <section class="menu">
-
-  </section>
-  <section class="about">
-
-  </section>
- </main>
- <footer class="footer">
-
- </footer>
-</div>
-</body>
+  </body>
 </html>
