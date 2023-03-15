@@ -227,10 +227,11 @@ padding: 0;
   font-weight: 500;
   background-color: #2F80ED;
   color: #ffffff;
+  transition-duration: .3s;
 }
 
 .form__button:hover {
-
+  opacity: .7;
 }
 
 .form__checkbox {
