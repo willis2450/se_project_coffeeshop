@@ -31,6 +31,12 @@
   font-weight: 500;
 }
 
+.nav__links:hover {
+  color: #2F80ED;
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+}
+
 .nav__link {
   text-decoration: none;
 }
