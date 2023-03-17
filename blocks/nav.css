@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+  column-gap: 20px;
+  padding: 0;
+  margin: 30px 80px 0 0;
+  font-weight: 500;
+}
+
+.nav__links:hover {
+  color: #2F80ED;
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+}
+
+.nav__link {
+  text-decoration: none;
+}
