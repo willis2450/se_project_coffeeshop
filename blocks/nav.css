@@ -13,11 +13,12 @@
 }
 
 .nav__links:hover {
-  color: #2F80ED;
+  color: #2f80ed;
   transition-timing-function: ease-in;
   transition-duration: 0.3s;
 }
 
 .nav__link {
   text-decoration: none;
+  color: #000000;
 }

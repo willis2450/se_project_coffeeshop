@@ -24,7 +24,6 @@
     <div class="page">
       <header
         class="header"
-        style="background-image: url('images/background_header.svg')"
       >
         <nav class="nav">
           <img
@@ -48,7 +47,7 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span>Specialty coffee</span>in the Practicum Library
+          <span class="header__span-accent">Specialty coffee</span>in the Practicum Library
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -60,12 +59,12 @@
           class="header__image"
         />
         <div class="header__footer">
-          <ul class="header__hours">
-            <li>Hours:</li>
-            <li>Monday-Friday (10:00 - 19:00)</li>
-            <li>Saturday - Sunday (11:00 - 18:00)</li>
-          </ul>
-          <p class="header__address">
+          <div class="header__hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday-Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
           </p>
         </div>
@@ -73,13 +72,12 @@
       <main class="content">
         <section
           class="recipes"
-          style="background-image: url('images/background_recipes.svg')"
         >
           <h2 class="recipes__title" id="recipes">Recipes</h2>
-          <h3 class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </h3>
+          </p>
           <div class="recipes__videos">
             <div>
               <iframe
@@ -110,7 +108,6 @@
         <section
           class="reservation"
           id="book-a-table"
-          style="background-image: url(images/background_reservation.svg)"
         >
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
@@ -175,7 +172,6 @@
         <section
           class="menu"
           id="menu"
-          style="background-image: url(./images/background_menu.svg)"
         >
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
@@ -184,8 +180,8 @@
           </p>
           <div class="menu__cards">
             <div>
+              <p class="card__title">Filter</p>
               <ul class="card">
-                <li class="card__title">Filter</li>
                 <li class="card__item-list">
                   Regular (12oz) <span class="card__list-divider"></span>$1
                 </li>
@@ -206,8 +202,8 @@
               </ul>
             </div>
             <div>
+              <p class="card__title">Espresso</p>
               <ul class="card">
-                <li class="card__title">Espresso</li>
                 <li class="card__item-list">
                   Macchiato <span class="card__list-divider"></span>$2.25
                 </li>
@@ -228,8 +224,8 @@
               </ul>
             </div>
             <div>
+              <p class="card__title">Baked Goods</p>
               <ul class="card">
-                <li class="card__title">Baked Goods</li>
                 <li class="card__item-list">
                   Almond Croissant <span class="card__list-divider"></span>$2
                 </li>
@@ -280,7 +276,7 @@
             alt="Practium Logo"
           />
           <div>
-            <p class="footer__social-heading">Social media</p>
+            <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#">

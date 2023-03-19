@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
 .footer__content {
@@ -16,7 +16,6 @@
 .footer__social-heading {
   padding-bottom: 20px;
   margin: 0;
-  text-align: right;
   font-weight: bold;
   color: #fff;
 }
@@ -24,6 +23,7 @@
 .footer__list {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .footer__list-item {
