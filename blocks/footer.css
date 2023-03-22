@@ -41,12 +41,12 @@
 .footer__social-link {
   color: #fff;
   text-decoration: none;
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
 }
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  transition-timing-function: ease-in;
-  transition-duration: 0.3s;
 }
 
 .footer__copyright {

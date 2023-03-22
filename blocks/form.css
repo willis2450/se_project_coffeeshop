@@ -4,7 +4,6 @@
 
 .form__fieldset {
   width: 100%;
-  box-sizing: border-box;
   border: none;
   padding: 0;
   margin: 0;
@@ -34,6 +33,7 @@
   color: #838383;
   margin-bottom: 32px;
   border-color: #838383;
+  box-sizing: border-box;
 }
 
 .form__input_type_checkbox {
