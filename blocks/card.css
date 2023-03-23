@@ -26,10 +26,10 @@
   margin: 0;
   padding-bottom: 16px;
   display: flex;
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
-.card__item-list:last-child {
+.card__list-item:last-child {
   padding: 0;
 }
 
